@@ -70,7 +70,7 @@ export default function NetworkGraphView() {
       </Col>
       <Tour open={open} onClose={() => setOpen(false)} steps={steps} />
       <Divider/>
-      <Col span={24}>
+      {/* <Col span={24}>
         <Card>
           <iframe
             width="1200"
@@ -80,7 +80,7 @@ export default function NetworkGraphView() {
             src="https://vasturiano.github.io/react-force-graph/example/ar-graph/index.html"
           ></iframe>
         </Card>
-      </Col>
+      </Col> */}
     </Row>
   );
 }
